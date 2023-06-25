@@ -17,10 +17,10 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning, Roy! How about starting the day with a healthy breakfast?',
-	greetingAfternoon: 'Good afternoon, Roy! How about taking a short break to stretch and breathe?',
-	greetingEvening: 'Good evening, Roy! How about winding down with a relaxing activity or a good book?',
-	greetingNight: 'Good night, Roy! How about getting some rest and having some sweet dreams?',
+	greetingMorning: '前天看见兔子，昨天看见了鹿，今天看见你。',
+	greetingAfternoon: '你是尘世三千中的无意风动\n是我满怀期待的远道而来',
+	greetingEvening: '人世间有百媚千红\n唯你是我情之所钟',
+	greetingNight: '我携满天星河赠你，仍觉星河不及你。',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -59,33 +59,33 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'ChatGPT',
+			icon: 'message-square',
+			link: 'https://chat.openai.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'BingChat',
+			icon: 'message-circle',
+			link: 'https://bing.com/chat',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/home',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://www.instagram.com/',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'mail',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Gmail',
+					link: 'https://mail.google.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Outlook',
+					link: 'https://outlook.live.com/mail',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '126 Mail',
+					link: 'https://mail.126.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'QQ Mail',
+					link: 'http://mail.qq.com/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'briefcase',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: '钉钉文档',
+					link: 'https://alidocs.dingtalk.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: '书链云协同',
+					link: 'https://www.yuntim.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Bookln GitLab',
+					link: 'https://git.bookln.cn/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Bookln NPM',
+					link: 'https://npm.bookln.cn/',
 				},
 			],
 		},
